@@ -1,0 +1,46 @@
+<div class="box">
+  <div class="item top"></div>
+  <div class="item left"></div>
+  <div class="item right"></div>
+  <div class="item bottom"></div>
+</div>
+<style>
+  body {
+    background: #D86F45;
+    margin: 0;
+  }
+
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .item {
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    border: 20px solid #fff;
+    border-bottom: 0;
+  }
+
+  .top {
+    top: 45;
+  }
+
+  .bottom {
+    bottom: 45;
+    rotate: 180deg;
+  }
+
+  .left {
+    rotate: -90deg;
+    left: 55;
+  }
+
+  .right {
+    rotate: 90deg;
+    right: 55;
+  }
+</style>
